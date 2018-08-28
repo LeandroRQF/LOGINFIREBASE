@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { Container, Header, Segment, Card, Button, CardContent } from 'semantic-ui-react';
 import { Redirect } from 'react-router-dom';
 
-import Navegacao from './Navegacao';
 import config, { auth, providers } from './../firebase-config';
+
+import Navegacao from './Navegacao';
+import PaginaTeste from './PaginaTeste';
 
 class Inicio extends Component {
     constructor(props) {
@@ -38,12 +40,7 @@ class Inicio extends Component {
     }
 
     render() {
-        {/*redireciona para uma pagina teste caso esteja logado
-        if (this.state.estaLogado) {
-            return <Redirect to='/paginateste' />
-        }*/}
-
-        return (
+        return (            
             <div>
                 <Navegacao />
 

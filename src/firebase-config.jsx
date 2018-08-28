@@ -1,17 +1,17 @@
-const Rebase = require('re-base')
-const firebase = require('firebase')
+const Rebase = require('re-base');
+const firebase = require('firebase');
 
 const FirebaseConfig = {
-    apiKey: "AIzaSyDQNh1Fm8uGcNZe954jGiIRR42MYB0UqFU",
-    authDomain: "click-doido.firebaseapp.com",
-    databaseURL: "https://click-doido.firebaseio.com",
-    projectId: "click-doido",
-    storageBucket: "click-doido.appspot.com",
-    messagingSenderId: "368220539812"
+    apiKey: "AIzaSyBr3_LpxZ3ggHsFtSQCHM92MuVMTKVQwvk",
+    authDomain: "leandro-login.firebaseapp.com",
+    databaseURL: "https://leandro-login.firebaseio.com",
+    projectId: "leandro-login",
+    storageBucket: "leandro-login.appspot.com",
+    messagingSenderId: "89115793255"
 }
 
-const app = firebase.initializeApp(FirebaseConfig)
-const config = Rebase.createClass(app.database())
+const app = firebase.initializeApp(FirebaseConfig);
+const config = Rebase.createClass(app.database());
 
 export const providers = {
     'facebook': new firebase.auth.FacebookAuthProvider,
