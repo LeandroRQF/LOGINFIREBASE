@@ -9,4 +9,18 @@ $ yarn add semantic-ui-react
 
 
 
-Código incompleto, em produção, tão logo será atualizado.
+Configurações Facebook
+https://developers.facebook.com/
+
+
+Configurações TwitterT
+https://developer.twitter.com/
+
+
+Configurações Google
+https://console.developers.google.com/projectselector/apis/credentials?hl=pt-br&supportedpurview=project
+
+
+Configurações GitHub
+https://github.com/settings/developers
+
