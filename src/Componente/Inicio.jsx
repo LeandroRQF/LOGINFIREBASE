@@ -52,7 +52,6 @@ class Inicio extends Component {
                     <Header>
                         Página destinada a realização de login, deixando disponível diversas opções de login para o usuário
                 </Header>
-
                     {
                         !this.state.estaLogado &&
                         <Card fluid>
@@ -95,7 +94,6 @@ class Inicio extends Component {
                             <img src={this.state.usuario.photoURL} />
                         </div>
                     }
-
                 </Container>
 
             </div>
